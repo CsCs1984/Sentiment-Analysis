@@ -1,22 +1,22 @@
-# 🏡 House Price Prediction
+# 🎭 Sentiment Analysis on IMDb Reviews
 
-This project predicts **house prices** using a simple **Linear Regression model**.  
-It demonstrates basic data preprocessing, feature selection, model training, and evaluation.
+This project performs **Sentiment Analysis** on a small IMDb dataset (positive, negative, neutral reviews).  
+It uses a simple **Naive Bayes model** with text preprocessing and vectorization.
 
 ---
 
 ## 📂 Project Structure
 
-- `data/` → dataset used for training  
-- `notebooks/` → Jupyter Notebook for exploratory data analysis (EDA) and training  
-- `src/` → clean Python scripts for training and prediction  
-- `requirements.txt` → required Python libraries  
+- `data/` → contains `imdb_reviews.csv` dataset  
+- `notebooks/` → exploratory analysis & model training notebook  
+- `src/` → clean Python code for training and prediction  
+- `requirements.txt` → required libraries  
 
 ---
 
 ## 🚀 How to Run
 
-1️⃣ **Clone the repository**  
+1️⃣ **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/House-Price-Prediction.git
-cd House-Price-Prediction
+git clone https://github.com/YOUR_USERNAME/Sentiment-Analysis.git
+cd Sentiment-Analysis
